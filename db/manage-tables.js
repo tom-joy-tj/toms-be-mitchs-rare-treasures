@@ -1,4 +1,4 @@
-const db = require("./");
+const db = require("./connection.js");
 const { createShopsQuery, createTreasuresQuery } = require("./queries");
 
 async function manageTables() {
